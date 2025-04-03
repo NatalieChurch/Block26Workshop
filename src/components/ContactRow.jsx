@@ -1,5 +1,5 @@
 function ContactRow({ setSelectedContactId, contact }){
-   
+   console.log(contact)
     return(
         <>
         <tr onClick = {()=>{setSelectedContactId(contact.id)}}>
